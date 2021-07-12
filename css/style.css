@@ -3063,6 +3063,20 @@ ul {
 
 }
 
+@media only screen and (min-width: 280px) and (max-width: 390px) {
+  .feature_part .kotak .card {
+    background-position-y: 0px !important;
+  }
+
+}
+
+@media only screen and (min-width: 394px) and (max-width: 408px) {
+  .feature_part .kotak .card {
+    background-position-y: 0px !important;
+  }
+
+}
+
 @media only screen and (min-width: 299px) and (max-width: 361px) {
   .feature_part .kotak .card {
     background-position-x: -10px !important;
