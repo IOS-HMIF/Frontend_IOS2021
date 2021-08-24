@@ -34,11 +34,20 @@ html::-webkit-scrollbar-thumb:active {
 
 /* Scrollbar ends */
 .section-bg {
+  /*  */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
 }
+
+/* .bgHMIF {
+  background: url(../img/blog/bannerIF.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+} */
 
 /*---------------------
   Categories Section
@@ -718,6 +727,14 @@ html::-webkit-scrollbar-thumb:active {
     background-position: center center;
     background-attachment: fixed;
   } */
+  /* .bgHMIF {
+    background: url(../img/blog/bg_if_mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  } */
+
   /* bagian lab */
   #rpl .ti-angle-right {
     display: none !important;
