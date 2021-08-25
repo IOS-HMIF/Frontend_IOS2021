@@ -295,7 +295,7 @@
                   wow
                   fadeInUp
                   mt-lg-4 mt-md-4 mt-sm-0 mt-xs-0
-                " data-wow-delay="1s">Salin Pesan
+                " data-wow-delay="1s" onclick="copyToClipboard()">Salin Pesan
             </a>
           </div>
         </div>
@@ -454,6 +454,14 @@
       });
     }
     document.addEventListener("scroll", handleScroll);
+
+    function copyToClipboard() {
+      var text = "Halo, yuk kunjungi website IoS untuk mengetahui berbagai macam informasi penting terkait dengan Informatika di https://hm.if.fsm.undip.ac.id/ios";
+
+      navigator.clipboard.writeText(text);
+      alert("Pesan berhasil disimpan ke clipboard");
+
+    }
   </script>
 </body>
 
